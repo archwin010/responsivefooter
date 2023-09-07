@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: #eeeceb;
+}
+footer{
+    position: fixed;
+    background: #14085c;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .top .logo-details{
+    color: #fff;
+    font-size: 30px;
+}
+.content .top .media-icons{
+    display: flex;
+}
+.content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+    background: #4267b2;
+}
+.top .media-icons a:nth-child(1):hover{
+    color: #4267b2;
+    background: #fff;
+}
+.top .media-icons a:nth-child(2){
+    background: #1da1f2;
+}
+.top .media-icons a:nth-child(2):hover{
+    color: #1da1f2;
+    background: #fff;
+}
+.top .media-icons a:nth-child(3){
+    background: #e1306c;
+}
+.top .media-icons a:nth-child(3):hover{
+    color: #e1306c;
+    background: #fff;
+}
+.top .media-icons a:nth-child(4){
+    background: #0077b5;
+}
+.top .media-icons a:nth-child(4):hover{
+    color: #0077b5;
+    background: #fff;
+}
+.top .media-icons a:nth-child(5){
+    background: #ff0000;
+}
+.top .media-icons a:nth-child(5):hover{
+    color: #ff0000;
+    background: #fff;
+}
